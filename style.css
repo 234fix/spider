@@ -1,0 +1,163 @@
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_item {
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 60px;
+}
+
+.header {
+    padding: 20px 0;
+    background: rgb(0, 0, 0);
+}
+
+.cont_header {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+.home_btn {
+    border-radius: 6px;
+    width: 219.5px;
+    height: 50px;
+    background: rgb(204, 150, 10);
+}
+
+.container_home {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.home {
+    padding: 45px 0 78px;
+    background: rgb(44, 44, 44);
+}
+
+.home_title {
+    color: rgb(194, 193, 193);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+/* 
+    margin- внешние отступы
+    padding - внутренние отступы
+*/
+.about {
+    background: rgb(62, 62, 62);
+    padding: 50px 0;
+}
+
+.about_title {
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about_content {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.about_text {
+    color: rgb(241, 25, 25);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.video {
+    background: rgb(44, 44, 44);
+    padding: 70px 0;
+    text-align: center;
+}
+
+.video_title {
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.video_video {
+    width: 763.19px;
+    height: 433px;
+    border: 53px solid rgb(65, 65, 65);
+    border-radius: 29px;
+    margin: auto;
+}
+
+.gallery {
+    background: rgb(62, 62, 62);
+    padding: 50px;
+}
+
+.gallery_title {
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+.gallery_list{
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.gallery_item{
+ margin-bottom: 25px;   
+}
+.footer_title{
+
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 30px;
+font-weight: 400;text-align: center;
+}
+.footer_content{
+max-width: 1300px; 
+display: flex;   
+margin: auto;
+justify-content: space-between;
+}
+.footer_list{
+    display: flex;
+    width: 116px;
+    justify-content: space-between;   
+    list-style: none;
+}
+.footer{
+    background: rgb(44, 44, 44);
+    padding: 50px 0;
+}
+.footer_text{
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
